@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<meta name="author" content="Manuel Abel de la Cruz Becerra">
+		<meta name="description" content="Hoja de Vida de Manuel Abel de la Cruz Becerra">
+		<title>
+			Fundamentos de HTML - Evaluación Final - Manuel de la Cruz
+		</title>
+	</head>
+	<body>
+		<header>
+			<h1>Curriculum Vitae</h1>
+			<h2>Lic. Manuel Abel de la Cruz Becerra</h2>
+			<h3>Radico en Monterrey, Nuevo León, México</h3>
+			<h3>Lugar de Origen Villahermosa, Tabasco, México</h3>
+			<h4>Fecha de Nacimiento 30 de Septiembre de 1980</h4>
+		</header>
+		<nav>
+			<div>
+				<a href="../index.html">Perfil</a> |
+				<a href="experiencia.html">Experiencia</a>
+			</div>
+		</nav>
+		<br/>
+		<br/>
+		<h2>Educación</h2>
+		<table border="1" cellpadding="3" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Carrera / Curso / Diplomado / Certificación</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Cilminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2006</td>
+					<td>Licenciatura en Informática</td>
+					<td>Universidad Regiomontana</td>
+					<td>Monterrey, México</td>
+					<td>Titulado</td>
+				</tr>
+				<tr>
+					<td>2004</td>
+					<td>Técnico Superior Universitario especialidad en Tecnologías de la Información y Comunicación</td>
+					<td>Universidad Tecnológica Santa Catarina</td>
+					<td>Santa Catarina, México</td>
+					<td>Titulado</td>
+				</tr>
+				<tr>
+					<td>2007</td>
+					<td>Curso de .NET</td>
+					<td>Kernel Technologies Group</td>
+					<td>Monterrey, México</td>
+					<td>Concluído</td>
+				</tr>
+				<tr>
+					<td>2008</td>
+					<td>Curso de Java</td>
+					<td>Kernel Technologies Group</td>
+					<td>Monterrey, México</td>
+					<td>Concluído</td>
+				</tr>
+				<tr>
+					<td>2008</td>
+					<td>Curso de SAVVION</td>
+					<td>Kernel Technologies Group</td>
+					<td>Monterrey, México</td>
+					<td>Concluído</td>
+				</tr>
+				<tr>
+					<td>2009</td>
+					<td>Curso de PSP / TSP Developer</td>
+					<td>Kernel Technologies Group</td>
+					<td>Monterrey, México</td>
+					<td>Concluído</td>
+				</tr>
+				<tr>
+					<td>2014</td>
+					<td>Certificado en Idioma Inglés</td>
+					<td>Instituto Norteamericano de Relaciones Culturales</td>
+					<td>Monterrey, México</td>
+					<td>Concluído</td>
+				</tr>
+				<tr>
+					<td>2014</td>
+					<td>Certificado en Idioma Francés</td>
+					<td>INJUVE Nuevo León</td>
+					<td>Monterrey, México</td>
+					<td>Concluído</td>
+				</tr>
+				<tr>
+					<td>2016</td>
+					<td>Certificado en Idioma Inglés</td>
+					<td>Open English</td>
+					<td>Online</td>
+					<td>Concluído</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Diplomado Xamarin</td>
+					<td>Xamarin Latino</td>
+					<td>Online</td>
+					<td>Concluído</td>
+				</tr>
+			</tbody>
+		</table>
+		<h2>Agregar Estudios</h2>
+		<form id="AgregarEstudios">
+			<label for="agno"><b>Año</b></label>
+			<select required id="agno" name="agno">
+				<option value="">Selecciona una opción ...</option>
+				<option value="2018">2010</option>
+				<option value="2018">2011</option>
+				<option value="2018">2012</option>
+				<option value="2018">2013</option>
+				<option value="2018">2014</option>
+				<option value="2018">2015</option>
+				<option value="2018">2016</option>
+				<option value="2018">2017</option>
+				<option value="2018">2018</option>
+				<option value="2018">2019</option>
+				<option value="2018">2020</option>
+				<option value="2018">2021</option>
+			</select>
+			<br/>
+			<label for="carrera"><b>Curso / Carrera / Diplomado / Certificación</b></label>
+			<input type="text" required id="carrera" name="carrera"/>
+			<br/>
+			<label for="institucion"><b>Institución</b></label>
+			<input type="text" required id="institucion" name="institucion"/>
+			<br/>
+			<label for="lugar"><b>Lugar</b></label>
+			<input type="text" required id="lugar" name="lugar"/>
+			<br/>
+			<input type="submit" value="Enviar"/>
+		</form>
+		<br/>
+		<br/>
+		<footer id="footer">
+			<div>
+				<p>
+				<h4>Medios de Contacto:</h4>
+					<div>
+						<p>Puede contactarme llaman al número (81) 1398 - 4466 número en Monterrey México, enviando un email o en las redes sociales</p>
+						<svg width="80" height="80" viewbox="0 0 80 80">
+							<a style="cursor:pointer" href="mailto:abel.mulato.becerra@gmail.com">
+								<image width="70%" height="70%" xlink:href="../images/svg/gmail.svg" />
+							</a>
+						</svg>
+						<svg width="80" height="80" viewbox="0 0 80 80">
+							<a style="cursor:pointer" target="_blank" href="https://www.facebook.com/amras.numenesse.3">
+								<image width="70%" height="70%" xlink:href="../images/svg/facebook.svg" />
+							</a>
+						</svg>
+						<svg width="80" height="80" viewbox="0 0 80 80">
+							<a style="cursor:pointer" target="_blank" href="https://www.messenger.com/t/1800125406917047">
+								<image width="70%" height="70%" xlink:href="../images/svg/messenger.svg" />
+							</a>
+						</svg>
+						<svg width="80" height="80" viewbox="0 0 80 80">
+							<a style="cursor:pointer" target="_blank" href="https://api.whatsapp.com/send?phone=8113984466">
+								<image width="70%" height="70%" xlink:href="../images/svg/whatsapp.svg" />
+							</a>
+						</svg>
+					</div>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
